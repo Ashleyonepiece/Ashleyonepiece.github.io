@@ -1,0 +1,55 @@
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+p {
+    font-size: 18px;
+}
+h4 {
+    display: inline-block;
+    
+}
+
+h3 {
+    
+    display: inline-block;
+    position: relative;
+    bottom: 40px;
+    
+}
+.ltitle {
+    color: #F0F8FF;
+}
+.rtitle {
+    right: 80px;
+}
+.new {
+    height: 400px;
+}
+.left {
+    background-color: hsl(252, 100%, 67%);
+    margin-left: 25%;
+    box-shadow: 0px 20px 20px 	#F0F8FF;
+    padding: 60px 10px;
+    position: relative;
+    left: 50px;
+}
+
+.right {
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 20px 20px 20px 	#F0F8FF;
+    padding: 60px 10px 60px 60px;
+    
+    
+    
+    
+    
+}
+.div {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    margin-top: 150px;
+    float: left;
+    
+}
