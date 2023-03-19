@@ -10,39 +10,87 @@ h4 {
 }
 
 h3 {
-    
-    display: inline-block;
     position: relative;
     bottom: 40px;
     
 }
-.ltitle {
-    color: #F0F8FF;
-}
-.rtitle {
-    right: 80px;
-}
-.new {
-    height: 400px;
-}
 .left {
+    color: #F0F8FF;
+    
+}
+.ltitle {
+    color: hsl(241, 100%, 89%);
+    text-shadow: 1px 1px 2px gray;
+    
+}
+.incircle {
+    margin: 0;
+    position: relative;
+    bottom: 165px;
+    
+}
+h1 {
+    margin: 0;
+    font-size: 60px;
+    text-shadow: 1px 1px 2px grey;
+}
+.incircle > h4 {
+    margin: 0;
+    color: lightgray;
+    opacity: 0.5;
+}
+.left > h2, p {
+    
+    position: relative;
+    bottom: 130px;
+    margin: 0;
+    text-shadow: 1px 1px 2px grey;
+   
+    
+}
+
+.left > h2 {
+    margin-top: 20px;
+    font-size: 28px;
+    
+}
+.left > p {
+    margin-top: 10px;
+    font-size: 15px;
+    display: inline-block;
+    width: 210px;
+    color: hsl(241, 100%, 89%);
+    opacity: 0.7;
+}
+
+
+.left {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     background-color: hsl(252, 100%, 67%);
     margin-left: 25%;
     box-shadow: 0px 20px 20px 	#F0F8FF;
-    padding: 60px 10px;
+    padding: 60px 10px 80px 10px;
     position: relative;
     left: 50px;
+}
+.dot {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    display: inline-block;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    position: relative;
+    bottom: 30px;
+    
 }
 
 .right {
     background-color: hsl(0, 0%, 100%);
     box-shadow: 20px 20px 20px 	#F0F8FF;
-    padding: 60px 10px 60px 60px;
+    padding: 60px 10px 80px 60px;
+    color: hsl(224, 30%, 27%);
     
-    
-    
-    
-    
+       
 }
 .div {
     text-align: center;
@@ -52,4 +100,74 @@ h3 {
     margin-top: 150px;
     float: left;
     
+}
+.rtitle {
+    right: 85px;
+    font-weight: 800;
+    
+}
+.d1 {
+    background-color: hsla(0, 100%, 67%, 0.1);
+    position: relative;
+    left: 25px;
+    bottom: 50px;
+    width: 250px;
+    height: 45px;
+    border-radius: 8px;
+    text-align: left;
+
+}
+img {
+    margin-left: 20px;
+    padding-bottom: 5px;
+
+}
+.first {
+    margin-right: 50px;
+}
+
+
+.d2 {
+    background-color: hsla(39, 100%, 56%, 0.1);
+    border-radius: 8px;
+    width: 250px;
+    height: 45px;
+    position: relative;
+    left: 25px;
+    bottom: 35px;
+    text-align: left;
+    
+}
+
+.d3 {
+    background-color: hsla(166, 100%, 37%, 0.1);
+    border-radius: 8px;
+    width: 250px;
+    height: 45px;
+    position: relative;
+    left: 25px;
+    bottom: 20px;
+    text-align: left;
+}
+
+.d4 {
+    background-color: hsla(234, 85%, 45%, 0.1);
+    border-radius: 8px;
+    width: 250px;
+    height: 45px;
+    position: relative;
+    left: 25px;
+    bottom: 5px;
+    text-align: left;
+}
+
+button {
+    margin-top: 30px;
+    border-radius: 25px;
+    width: 250px;
+    height: 50px;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
