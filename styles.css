@@ -209,23 +209,37 @@ button:hover {
 }
 
 .attribution {
-    position: absolute;
-    left: 40%;
-    bottom: 20px;
+
+    margin-top: 150px;
+    font-size: 11px; 
+    text-align: center;
     
 }
 
-@media screen and (max-width: 936px) {
-    .attribution {
-        top: 20px;
-        
-    }
-    .right { 
-        box-shadow: none;
-     
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+@media screen and (max-width: 376px) {
+    body {
+        margin: 0;
     }
     .left {
         box-shadow: none;
+        padding: 60px 37.5px 80px 37.5px;
+        left: 0;
+        border-top-left-radius: 0 ;
+        border-top-right-radius: 0;
+        
     }
-    
+    .right {
+        box-shadow: none;
+        padding: 60px 37.5px 80px 37.5px;
+        
+    }
+    .all_divs {
+        
+        margin-left: 0;
+        margin-top: 0;
+    }
 }
