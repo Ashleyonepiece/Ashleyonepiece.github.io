@@ -1,15 +1,12 @@
 body {
     font-family: 'Hanken Grotesk', sans-serif;
 }
-
 p {
     font-size: 18px;
 }
-
-h1 {
-    margin: 0;
-    font-size: 60px;
-    text-shadow: 1px 1px 2px grey;
+h4 {
+    display: inline-block;
+    
 }
 
 h3 {
@@ -242,4 +239,6 @@ button:hover {
         margin-left: 0;
         margin-top: 0;
     }
+
 }
+
